@@ -306,7 +306,7 @@ def main():
         print("(8) About The Program")
         print("(9) Quit")
         try:
-            choice = int(input("Please Enter The Number Of Choice You Want to Do --> "))
+            choice = int(input("Please Enter The Number Of Choice You Want to Perform--> "))
             if choice == 1:
                 Func.add_customer_info()
             elif choice == 2:
