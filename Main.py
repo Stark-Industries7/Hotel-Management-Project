@@ -5,7 +5,7 @@ import json as js
 
 class hotel:
     def __init__(self):
-        """This __init__ function will initialise all the files where the customer details and there
+        """This __init__ function will initialise all the files where the customer details and   there
         respective booking details are stored.
         """
         self.customer_file_name = "customer_detail.txt"
