@@ -1,5 +1,5 @@
 import json as js
-import sys
+# import sys
 
 class hotel:
     def __init__(self):
@@ -82,7 +82,7 @@ def main():
         elif choice == 4:
             Func.about()
         elif choice == 5:
-            sys.exit()    
+            break    
         else:
             print("Please Type The Given Numbers For Operation Of Code!")
       except:
