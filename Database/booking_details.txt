@@ -1,0 +1,34 @@
+[
+    {
+        "Name": "apoorav mukherjee",
+        "Check-in Date": "5435464564",
+        "Check-out Date": "646546567",
+        "Room Type": "gfdghjfgj",
+        "Number of Guests": 23,
+        "Special Requests": "hfhdfhs",
+        "Payment Method": "fghdfhsfg",
+        "Card Details": {
+            "Number": "645646456",
+            "Expiry Date": "63565",
+            "CVV": "5654"
+        },
+        "ID Type": "dghfhfh",
+        "ID Number": "5465"
+    },
+    {
+        "Name": "Kartik DDixit",
+        "Check-in Date": "4w35435",
+        "Check-out Date": "43545",
+        "Room Type": "dfgsfhgsfg",
+        "Number of Guests": 23,
+        "Special Requests": "gsdgsdfg",
+        "Payment Method": "gsdfgsdf",
+        "Card Details": {
+            "Number": "45345345",
+            "Expiry Date": "435345345",
+            "CVV": "453"
+        },
+        "ID Type": "dfgsdgd",
+        "ID Number": "435344534"
+    }
+]

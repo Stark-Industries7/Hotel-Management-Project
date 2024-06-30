@@ -8,9 +8,9 @@ class hotel:
         """This __init__ function will initialise all the files where the customer details and   there
         respective booking details are stored.
         """
-        self.customer_file_name = "customer_detail.txt"
+        self.customer_file_name = "Hotel Management Project\\Database\\customer_detail.txt"
         self.customer_info = []
-        self.booking_file_name = "booking_details.txt"
+        self.booking_file_name = "Hotel Management Project\\Database\\booking_details.txt"
         self.booking_info = []
 
         try:  # this will check if the customer details file is located in the system or not if not then it will initialise a empty list
@@ -176,9 +176,7 @@ class hotel:
                         break
                 if not found:
                     print(f"No Booking Found For The Name: {name}")
-                another_booking = input(
-                    "Do You Want to Remove Another Booking (Yes/No) --> "
-                ).lower()
+                another_booking = input("Do You Want to Remove Another Booking (Yes/No) --> ").lower()
                 if another_booking not in ["yes", "y"]:
                     break
             except ValueError as e:
